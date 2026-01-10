@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="XXFW-HdKUqDpJ5DNBL_c">
+    <mxGraphModel dx="2515" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uU8vhk4ZLtIbHocielF5-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Безопасность данных&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="240" x="140" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Конфиденциальные данные&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="230" x="250" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Публичные данные&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="-420" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Внутренние данные&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="-80" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Секретные данные&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="710" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-12" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-13" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="380" as="sourcePoint" />
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-14" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="uU8vhk4ZLtIbHocielF5-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="200" as="sourcePoint" />
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Цены, планировки зданий, информация о застройщике, описание зданий&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="-420" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-17" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-6" style="endArrow=classic;html=1;rounded=0;exitX=0.467;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.46;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="uU8vhk4ZLtIbHocielF5-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="470" as="sourcePoint" />
+            <mxPoint x="210" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Искажение данных&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Риск: Значительный&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="-420" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-20" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="210" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Репутационные и юридические риски при продаже" vertex="1">
+          <mxGeometry height="70" width="220" x="-420" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-22" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="600" as="sourcePoint" />
+            <mxPoint x="210" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp; Планы, история ремонтов, отчетности" vertex="1">
+          <mxGeometry height="70" width="220" x="-90" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Некачественные данных&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Риск: Значительный&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="-90" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-26" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-24" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="465" as="sourcePoint" />
+            <mxPoint x="540" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Влияет на операционную эффективность: некорректные данные о ремонтах приводят к ошибкам в планировании." vertex="1">
+          <mxGeometry height="70" width="220" x="-90" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-28" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-25" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="585" as="sourcePoint" />
+            <mxPoint x="540" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Персональные данные клиентов/собственников, данные по бронированиям и визитам.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="260" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Утечка данных&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Риск: Значительный&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="260" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-31" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-29" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="840" y="470" as="sourcePoint" />
+            <mxPoint x="890" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Законадательные и репутационные проблемы. 152-ФЗ" vertex="1">
+          <mxGeometry height="70" width="220" x="260" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-33" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-30" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="840" y="590" as="sourcePoint" />
+            <mxPoint x="890" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ключи, токены, учетные данные, данные умного дома.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="890" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Утечка данных&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Риск: Критический&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="890" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-36" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-34" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1470" y="440" as="sourcePoint" />
+            <mxPoint x="1520" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Компрометация даёт злоумышленнику доступ к сервисам и управление умным домом." vertex="1">
+          <mxGeometry height="70" width="220" x="890" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-38" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-35" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1470" y="560" as="sourcePoint" />
+            <mxPoint x="1520" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-39" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-7" style="endArrow=classic;html=1;rounded=0;exitX=0.464;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="600" as="sourcePoint" />
+            <mxPoint x="210" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-40" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="610" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-41" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="uU8vhk4ZLtIbHocielF5-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="580" as="sourcePoint" />
+            <mxPoint x="210" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Коммерческая тайна&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="580" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Обесценивание данных&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Риск: Критический&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="580" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-50" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-48" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-49" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="445" as="sourcePoint" />
+            <mxPoint x="1210" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div class=&quot;flex flex-col text-sm pb-25&quot;&gt;&lt;article class=&quot;text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&amp;amp;:has([data-writing-block])&amp;gt;*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]&quot; tabindex=&quot;-1&quot; dir=&quot;auto&quot; data-turn-id=&quot;request-WEB:1ca4ad58-b09e-4ed3-9cf0-5143d604d8df-10&quot; data-testid=&quot;conversation-turn-18&quot; data-scroll-anchor=&quot;true&quot; data-turn=&quot;assistant&quot;&gt;&lt;div class=&quot;text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @w-sm/main:[--thread-content-margin:--spacing(6)] @w-lg/main:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)&quot;&gt;&lt;div class=&quot;[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn&quot; tabindex=&quot;-1&quot;&gt;&lt;div class=&quot;flex max-w-full flex-col grow&quot;&gt;&lt;div data-message-author-role=&quot;assistant&quot; data-message-id=&quot;b1d71308-e39e-4762-8399-e6f3b9d5d96d&quot; dir=&quot;auto&quot; class=&quot;min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;amp;]:mt-1&quot; data-message-model-slug=&quot;gpt-5-2-thinking&quot;&gt;&lt;div class=&quot;flex w-full flex-col gap-1 empty:hidden first:pt-[1px]&quot;&gt;&lt;div class=&quot;markdown prose dark:prose-invert w-full break-words dark markdown-new-styling&quot;&gt;&lt;p data-start=&quot;0&quot; data-end=&quot;64&quot; data-is-last-node=&quot;&quot; data-is-only-node=&quot;&quot;&gt;Потеря конкурентного преимущества и возможные финансовые убытки.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;z-0 flex min-h-[46px] justify-start&quot;&gt;&lt;/div&gt;&lt;div class=&quot;mt-3 w-full empty:hidden&quot;&gt;&lt;div class=&quot;text-center&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;div aria-hidden=&quot;true&quot; data-edge=&quot;true&quot; class=&quot;pointer-events-none h-px w-px absolute bottom-0&quot;&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="580" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-52" edge="1" parent="1" source="uU8vhk4ZLtIbHocielF5-49" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-51" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="565" as="sourcePoint" />
+            <mxPoint x="1210" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU8vhk4ZLtIbHocielF5-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uU8vhk4ZLtIbHocielF5-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="820" y="360" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
