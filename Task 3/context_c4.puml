@@ -1,0 +1,18 @@
+@startuml C4_Context_SmartHome_Fixed
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title Контекстная диаграмма: Интеграция «Умный дом»
+
+Person(owner, "Собственник", "Через мобильное приложение управляет доступом и просматривает статусы.")
+Person(manager, "Менеджер PropDevelopment", "Через внутренние системы задаёт и обновляет параметры доступа (биометрия, номера авто).")
+
+System(propdevelopment_system, "PropDevelopment", "Платформа компании")
+
+System_Ext(partner_smarthome, "Партнёрская платформа «Умный дом»", "Внешняя система интеллектуального домофона и шлагбаума.")
+
+Rel(owner, propdevelopment_system, "Управление доступом и просмотр статусов")
+Rel(manager, propdevelopment_system, "Управление параметрами доступа")
+
+Rel(propdevelopment_system, partner_smarthome, "Передача команд, получение статусов, синхронизация данных доступа")
+
+@enduml
